@@ -1,0 +1,5 @@
+{
+    "sdk": {
+        "version": "5.0.102" // escolhendo a versão do dotnet que vai ser usada no projeto
+    }
+}

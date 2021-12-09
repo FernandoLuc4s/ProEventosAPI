@@ -1,0 +1,5 @@
+dotnet new = criar novo template do .net
+dotnet run = compila o projeto e mostra em qual porta ele vai rodar
+para rodar no swaggeer é necessário pegar a porta e coolocar '/swagger' = https://localhost:5001/swagger/index.html
+CRTL+C = Parar de rodar aplicaçõa
+dotnet new gitignore = cria um gitignore automaticamente do dotnet
