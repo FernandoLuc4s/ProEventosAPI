@@ -3,3 +3,13 @@ dotnet run = compila o projeto e mostra em qual porta ele vai rodar
 para rodar no swaggeer é necessário pegar a porta e coolocar '/swagger' = https://localhost:5001/swagger/index.html
 CRTL+C = Parar de rodar aplicaçõa
 dotnet new gitignore = cria um gitignore automaticamente do dotnet
+dotnet tool list --global = mostra todas as ferramentas do dotnet que você tem instalada
+
+________Entity Framework__________
+dotnet tool install --global dotnet-ef = instalar o EF via terminal
+dotnet-ef = Acessa as opções que você pode usar do EF
+CRTL+Shift+P = abrir o nuget gallery para instalar os pacotes do EF
+dotnet ef migrations list = Lista todas migrations que você pode ter no projeto
+dotnet ef migrations add initial -o Data/Migrations = cria uma migração
+dotnet ef migrations remove = remove os arquivos de migração
+dotnet ef -h = comando de ajuda do dotnet
