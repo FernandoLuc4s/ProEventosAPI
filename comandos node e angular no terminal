@@ -1,0 +1,7 @@
+node -v =  versão do node
+nvm list = lista as versões do node e qual você pode escolher para trabalhar no projeto
+npm install -g @angular/cli = instalar o angular no projeto
+ng --version = mostra a versão do angular que está sendo utilizado
+ng new "nome do projeto angular"
+npm start = dá o run no angular 
+ng g c "nome do componente" =  cria nome do componente no angular
